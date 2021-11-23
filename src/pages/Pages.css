@@ -1,0 +1,40 @@
+.CreateLoc {
+    text-align: center;
+}
+  
+.Page-header {
+    background-color: #2274f0;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(8px + 2vmin);
+    color: white;
+}
+.Page-title {
+    font-size: calc(14px + 2vmin);
+}
+.Field-title {
+    font-size: calc(4px + 2vmin);
+    padding: 2px 6px 4px 4px;
+}
+.Page-button {
+    justify-content: center;
+    font-size: calc(4px + 2vmin);
+    font-weight: 800;
+    padding: 2px 8px 2px 8px;
+    color: black;
+}
+.Page-input {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4px 0px 4px 4px;
+    list-style: none;
+    height: 14px;
+    width: 150px;
+}
+.Page-link {
+    color: #61dafb;
+}
