@@ -7,7 +7,7 @@ class WithdrawPay extends Component {
     constructor(props) {
         super (props);
 
-        const contractAddress = '0xa3Df9497485b361371f0220B61bE87002DBDC0B5';
+        const contractAddress = '0x32d69A993B38FF5D9BD29fbaf5da06a334BFADd3';
         const contractAbi = [
         {
           "inputs": [],
