@@ -805,7 +805,7 @@ class PayRide extends Component {
         });
 
         //const balance = await window.ethereum.getBalance(account);
-        if (this.time.value == '') {
+        if (this.time.value === '') {
           var time = 0;
         } else {
           var time = this.time.value;

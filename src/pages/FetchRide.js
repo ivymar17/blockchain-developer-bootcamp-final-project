@@ -804,7 +804,7 @@ class FetchRide extends Component {
       window.ethereum.on('accountsChanged', function (accounts) {
         console.log(accounts[0])
       });
-      if (this.time.value == '') {
+      if (this.time.value === '') {
         var time = 0;
         alert('Must have a time value');  
       } else {

@@ -820,7 +820,7 @@ class Accept extends Component {
         const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
         
         const distance = R * c; //metres*/
-        const distance = 1;
+        //const distance = 1;
           
         const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
         const account = accounts[0];
@@ -830,7 +830,7 @@ class Accept extends Component {
         });
 
         //change state transaction
-        if (this.time.value == '') {
+        if (this.time.value === '') {
           var time = 0;
         } else {
           var time = this.time.value;

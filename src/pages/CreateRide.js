@@ -849,7 +849,7 @@ class CreateRide extends Component {
           console.log(accounts[0])
         });
 
-        if (this.time.value == '') {
+        if (this.time.value === '') {
           var time = 0;
         } else {
           var time = this.time.value;

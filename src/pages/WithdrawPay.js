@@ -805,7 +805,7 @@ class WithdrawPay extends Component {
         });
 
         //const balance = await window.ethereum.getBalance(account);
-        if (this.amount.value == '') {
+        if (this.amount.value === '') {
           alert('Must have an amount greater than 0');
         }
         const val_tok = 0.000177778 * 4500; //arbitrary value to set a currency 

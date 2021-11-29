@@ -805,7 +805,7 @@ class RegDriver extends Component {
             // Time to reload your interface with accounts[0]!
           console.log(accounts[0])
         });
-        if (this.plate.value == '') {
+      if (this.plate.value === '') {
           alert('All fields must have a value');
         }
         const plateHex = Web3.prototype.fromAscii(this.plate.value).padEnd(66, "0");

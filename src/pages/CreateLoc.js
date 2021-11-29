@@ -808,7 +808,7 @@ class CreateLoc extends Component {
     
       alert('You entered: ' + this.miles.value + ' ' + this.cost.value + ' ' + this.location.value + ' ' + account); 
       
-      if (this.miles.value == '') {
+      if (this.miles.value === '') {
         var miles = 0;
       } else {
         var miles = this.miles.value;
