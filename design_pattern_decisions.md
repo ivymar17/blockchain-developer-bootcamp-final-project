@@ -6,6 +6,7 @@ Design patern used:
         require(msg.sender == owner, "only the contract owner can add locations");
         _;
     }
+    
     modifier onlyDriver(address _driver) {
         require(msg.sender == _driver, "only registered Driver can create rides");
         _;
