@@ -19,6 +19,9 @@ Peer to peer car ride sharing
 
 As of now, the functionality of the D-Ride is general and limited. Gas costs for this type of service is prohibiting at this time. However, the decentralized nature of the blockchain is appropiate for this kind of application. It eliminates the need for the middle man to handle payments which could serve as a reduction in prices, given gas prices get to lower levels in the future.        
 
+Link to the project execution on localhost8545:
+https://kapwi.ng/c/NOW67t-aaX
+
 
 Project's directory structure:
   - contract folder: has the solidity contract file.
