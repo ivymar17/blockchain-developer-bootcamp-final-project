@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# blockchain-developer-bootcamp-final-project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Peer to peer car ride sharing 
 
-## Available Scripts
+1. Contract's owner is the only allowed to add locations. Miles of the especific location and base ride cost for the location will be added.  
 
-In the project directory, you can run:
+2. Driver will be registered along with the car's plate, model and color. 
 
-### `npm start`
+3. The rides can only be created by registered car's users. Pick-up and drop-off locations, time of the offered ride and traffic status must be given. 
+(Traffic status is expected to be determined by factors obtained from a geolocation data provider and it's relative to traffic conditions). The owner is not allowed to create rides.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+4. Users request a ride indicating time, pick-up and drop-off locations. (If a ride exists, it will be marked booked for the user).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+5. Driver must accept a booked ride in order to be able to be paid.  
 
-### `npm test`
+6. Users pay the ride which is accounted to the driver's balance.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+7. Drivers withdraw payments from their balance.  
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+As of now, the functionality of the D-Ride is general and limited. Gas costs for this type of service is prohibiting at this time. However, the decentralized nature of the blockchain is appropiate for this kind of application. It eliminates the need for the middle man to handle payments which could serve as a reduction in prices, given gas prices get to lower levels in the future.        
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+QUESTIONS:
+- How to provide a level of safety between the service's users and providers?
+- What background information could be used to achieve agreement on approval of individual’s civil standing-background check for security?
+- How to verify authenticity of documents for registration in the Dapp? 
