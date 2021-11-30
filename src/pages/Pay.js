@@ -7,7 +7,7 @@ class PayRide extends Component {
     constructor(props) {
         super (props);
 
-        const contractAddress = '0x32d69A993B38FF5D9BD29fbaf5da06a334BFADd3';
+        const contractAddress = '0xdEC7f5393bC0D6B29042d230D2bf1A5C7C662f02';
         const contractAbi = [
         {
           "inputs": [],
